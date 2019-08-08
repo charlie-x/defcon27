@@ -30,17 +30,17 @@
   UseScriptFile = 0
   ScriptFile = ""
   UseRAM = 1
-  RAMAddr = 0x1FFFFC00
-  RAMSize = 0x00001000
+  RAMAddr = 0x1FFFF800
+  RAMSize = 0x00002000
   CheckCoreID = 1
   CoreID = 0x0BC11477
   CoreIDMask = 0x0F000FFF
   UseAutoSpeed = 0x00000001
   ClockSpeed = 0x00000000
   EndianMode = 0
-  ChipName = "NXP MKL26Z32xxx4"
+  ChipName = "NXP MKL26Z64xxx4"
 [FLASH]
-  aRangeSel[1] = 0-31
+  aRangeSel[1] = 0-63
   BankName = "Internal flash"
   BankSelMode = 1
   BaseAddr = 0x00000000
